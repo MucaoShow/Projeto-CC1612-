@@ -1,0 +1,379 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+ul, li {
+    margin: 0px;
+    padding:0px ;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    text-decoration-color: white;
+}
+.container {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+nav ul,
+nav li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 20px;
+    margin-bottom: 25px;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+nav .active a {
+    background-color: orange;
+}
+nav a:hover {
+    background-color: orange;
+}
+nav {
+    display: flex;
+}
+#banner {
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+}
+.coluna {
+    flex-direction: column;
+    height: 670px;
+}
+.textos {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textos h1 {
+    color: black;
+    font-size: 50px;
+    text-shadow: 1px 1px 0px gray;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+}
+.textos h2 {
+    color: black;
+    font-size: 19px;
+    text-shadow: 1px 1px 0px gray ;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    margin-top: 30px;
+}
+.opt {
+    height: 210px;
+    display: flex;
+    color: black;
+}
+.opt1,
+.opt2,
+.opt3 {
+    flex:1
+}
+.opt1 {
+    padding: 20px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+}
+.opt1 h2,
+.opt2 h2,
+.opt3 h2 {
+    margin: 0
+}
+.opt1 p,
+.opt2 p,
+.opt3 p{
+    font-size: 15px;
+}
+#b1 {
+    background-color:#ffa837 ;
+}
+.opt2 {
+    background-color:darkorange;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#b2 {
+    background-color:darkorange;
+}
+.opt3 {
+    background-color: darkorange;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#geral {
+    display: flex;
+    justify-content: center;
+    height: 1155px;
+}
+#geral section {
+    flex: 2;
+}
+#geral aside {
+    flex:1;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+.w-titulo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.w-titulo-text {
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+.w-titulo-bar {
+    width: 50PX;
+    height: 2px;
+    background-color:darkorange;
+    margin-top: 10px;
+}
+.News-data {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+}
+.N-data {
+    background-color: darkorange;
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+    height: 34px;
+    width: auto;
+}
+.N-coments {
+    background-color: orange;
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+    margin-left: 2px;
+    height: 34px;
+}
+article .N-title {
+    font-size: 23px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+}
+article .N-resume {
+    font-size: 14px;
+    color: darkslategray;
+    line-height: 20px;
+}
+article a {
+    text-decoration: none;
+}
+.quadrados {
+    display: flex;
+    justify-content: space-between;
+}
+.quadrado, .quadrado a {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.M-text {
+    margin-top: 15px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: darkslategray;
+}
+.contatos {
+    display: flex;
+    flex-direction: column;
+}
+.contato {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid gray;
+    line-height: 32px;
+    color: darkslategray;
+}
+.contato a {
+    margin-left: 5px;
+    font-weight: bold;
+    color: gray;
+    text-decoration: none;
+}
+.M-quad {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-right: 5px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 25px;
+    height: 670px;
+    position: relative;
+
+}
+.r-opts {
+    display: flex;
+    flex: 1;
+}
+.r-body h3, p {
+    margin: 0px;
+}
+.r-opt1, .r-opt2, .r-opt3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+    height: 120px;
+}
+.r-opt1 {
+    background-color: orange;
+}
+.r-opt2 {
+    background-color: orange;
+}
+.r-opt3 {
+    background-color: orange;
+}
+.r-descs {
+    display: flex;
+}
+.r-desc {
+    flex: 1;
+}
+.r-coluna {
+    flex-direction: column;
+}
+footer .wt-title {
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.p {
+    font-size: 13px;
+}
+.r-desc {
+    color: gray;
+    padding-right: 20px;
+}
+footer .bar {
+    width: 50PX;
+    height: 2px;
+    background-color:orange;
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+}
+.r-body {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.infs {
+    margin-top: 20px;
+    display: flex;
+    font-size: 12px;
+}
+.infs a {
+    color: white;
+    text-decoration: none;
+}
+.inf {
+    flex:1;
+    margin-right:10px ;
+}
+footer ul, footer li {
+    height: 20px;
+    text-decoration: none;
+    margin-left: 0px;
+}
+footer li {
+    margin-bottom: 10px;
+}
+.r-body ul a {
+    margin-left: 0px;
+    text-decoration: none;
+    color: gray;
+}
+footer .data {
+    color: orange;
+}
+.cr {
+    border-top: 2px solid gray;
+    color: gray;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+.desenvolvedor img{
+    width: 250px;
+    height: 300px;
+    padding-bottom: 10px;
+}
+.desenvolvedores{
+    display: flex;
+    justify-content: center;
+}
+.desenvolvedor{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    text-align:right;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
